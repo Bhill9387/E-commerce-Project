@@ -7,10 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Library</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
   <script src="index.js"></script>
-  
 </head>
 
 <body>
@@ -43,8 +41,6 @@
           </ul>
         </div>
       </div>
-      <button class="btn__menu"></button>
-      <i class="fas fa-bars"> </i>
     </nav>
     <header>
       <div class="header__container">
@@ -52,31 +48,11 @@
           <h1>America's most awarded online library platform</h1>
           <h2>Find your dream book with <span class="purple">Library</span></h2>
           <a href="#features">
-            <button class="btn">Browse books
-              <div class="menu__backdrop">
-               <butto class="btn__menu btn__menu--close ">
-                <i class="fas-times"></i>
-               </button>
-                <ul>  
-                    <li class="menu__list">
-                   <a href="#" class="menu__link">Home</a>
-                   </li>
-                  <li class="menu__list">
-                     <a href="#" class="menu__link">Home</a>
-                   </li>
-                   <a href="#" class="menu__link">Home</a>
-                   </li>
-                   <li class="menu__list">
-                   <a href="#" class="menu__link">Home</a>
-                  </li>
-                  </ul>
-                 </div>
-               
-            </button>
+            <button class="btn">Browse books</button>
           </a>
         </div>
         <figure class="header__img--wrapper">
-          <img src="./assets/Undraw_Books.svg" alt="">
+          <img src="./assets/Undraw_Books.svg" alt="Header Image">
         </figure>
       </div>
     </header>
@@ -216,7 +192,7 @@
       <div class="container">
         <div class="row">
           <h2 class="section__title">
-            Latest <span class="purple">Books</span>
+            Featured <span class="purple">Books</span>
           </h2>
           <div class="books">
             <div class="book">
@@ -370,36 +346,34 @@
 
     <section id="explore">
       <div class="container">
-        <div class="row row__column ">
-          <h2> Explore more <span class="purple">Books</span></h2>
+        <div class="row row__column">
+          <h2>Explore more <span class="purple">Books</span></h2>
           <a href="#features">
             <button class="btn">Browse books</button>
           </a>
         </div>
       </div>
     </section>
-    </main> 
+  </main>
 
-    <footer>
+  <footer>
     <div class="container">
       <div class="row row__column">
         <a href="#">
-          
-          <figure class="Footer__logo">
-            <img src="./assets/Library.svg"class="Footer__logo--img">
+          <figure class="footer__logo">
+            <img src="./assets/Library.svg" class="footer__logo--img" alt="">
           </figure>
         </a>
-        <div class="footer__social__list">
-          <a href="" class="footer__link">Home</a>
-          <a href="" class="footer__link no-cursor">About</a>
-          <a href="" class="footer__link">Books</a>
-          <a href="" class="footer__link no-cursor ">Contact</a>
+        <div class="footer__list">
+          <a href="#" class="footer__link">Home</a>
+          <a class="footer__link no-cursor">About</a>
+          <a href="#features" class="footer__link">Books</a>
+          <a class="footer__link no-cursor">Contact</a>
         </div>
+        <div class="footer__copyright">Copyright &copy; 2021 Library</div>
       </div>
     </div>
-    <div class="footer__copyright">Copyright &copy; 2025 Library </div>
+  </footer>
+</body>
 
-    </footer>
-    </body>
-
-    </html>
+</html>
